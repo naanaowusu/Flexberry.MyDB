@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Book",
+  "name": "IISMyDBBookE",
+  "className": "BookE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-my-d-b-book",
+      "modelProjection": "BookE"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISMyDBSpeaker",
+  "modelName": "i-i-s-my-d-b-speaker",
+  "className": "Speaker",
+  "nameSpace": "IIS.MyDB",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "firstName",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "lastName",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "SpeakerE",
+      "modelName": "i-i-s-my-d-b-speaker",
+      "attrs": [
+        {
+          "name": "firstName",
+          "caption": "First name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "lastName",
+          "caption": "Last name",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "SpeakerL",
+      "modelName": "i-i-s-my-d-b-speaker",
+      "attrs": [
+        {
+          "name": "firstName",
+          "caption": "First name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "lastName",
+          "caption": "Last name",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

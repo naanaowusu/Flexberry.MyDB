@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "My DB",
+  "applicationTitle": "My DB",
+  "items": [
+    {
+      "link": null,
+      "menuName": "my-d-b",
+      "caption": "MyDB",
+      "title": "MyDB",
+      "children": [
+        {
+          "link": "i-i-s-my-d-b-class-meeting-l",
+          "menuName": null,
+          "caption": "Class meeting",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-my-d-b-speaker-l",
+          "menuName": null,
+          "caption": "Speaker",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-my-d-b-book-l",
+          "menuName": null,
+          "caption": "Book",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

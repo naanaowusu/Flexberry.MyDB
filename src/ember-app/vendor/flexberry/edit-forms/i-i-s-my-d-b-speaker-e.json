@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Speaker",
+  "name": "IISMyDBSpeakerE",
+  "className": "SpeakerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-my-d-b-speaker",
+      "modelProjection": "SpeakerE"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISMyDBClassMeeting",
+  "modelName": "i-i-s-my-d-b-class-meeting",
+  "className": "ClassMeeting",
+  "nameSpace": "IIS.MyDB",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "meetingDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "presntation",
+      "relatedTo": "i-i-s-my-d-b-presntation",
+      "inverse": "classMeeting"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ClassMeetingE",
+      "modelName": "i-i-s-my-d-b-class-meeting",
+      "attrs": [
+        {
+          "name": "meetingDate",
+          "caption": "Meeting date",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "PresntationE",
+          "caption": "Presntation",
+          "name": "presntation",
+          "relatedTo": "i-i-s-my-d-b-presntation",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ClassMeetingL",
+      "modelName": "i-i-s-my-d-b-class-meeting",
+      "attrs": [
+        {
+          "name": "meetingDate",
+          "caption": "Meeting date",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

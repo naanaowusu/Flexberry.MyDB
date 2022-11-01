@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "book",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Presntation.Book",
+      "projection": "BookL",
+      "detailModelName": "i-i-s-my-d-b-presntation"
+    },
+    {
+      "master": "speaker",
+      "displayAttributeName": "firstName",
+      "required": true,
+      "relationName": "Presntation.Speaker",
+      "projection": "SpeakerL",
+      "detailModelName": "i-i-s-my-d-b-presntation"
+    }
+  ],
+  "external": false,
+  "caption": "Class meeting",
+  "name": "IISMyDBClassMeetingE",
+  "className": "ClassMeetingE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-my-d-b-class-meeting",
+      "modelProjection": "ClassMeetingE"
+    }
+  ]
+}
