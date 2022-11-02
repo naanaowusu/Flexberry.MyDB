@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-my-d-b-class-meeting-l',
             caption: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-class-meeting-l.caption'),
             title: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-class-meeting-l.title'),
-            icon: 'phone',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-my-d-b-speaker-l',
             caption: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-speaker-l.caption'),
             title: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-speaker-l.title'),
-            icon: 'suitcase',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-my-d-b-book-l',
             caption: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-book-l.caption'),
             title: i18n.t('forms.application.sitemap.my-d-b.i-i-s-my-d-b-book-l.title'),
-            icon: 'chart bar',
+            icon: 'file',
             children: null
           }]
         }
